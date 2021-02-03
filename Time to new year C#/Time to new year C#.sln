@@ -1,0 +1,18 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+# SharpDevelop 5.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Time to new year C#", "Time to new year C#\Time to new year C#.csproj", "{2CAC2816-5D9E-4D2B-86BC-6EC88EA42411}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2CAC2816-5D9E-4D2B-86BC-6EC88EA42411}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CAC2816-5D9E-4D2B-86BC-6EC88EA42411}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CAC2816-5D9E-4D2B-86BC-6EC88EA42411}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CAC2816-5D9E-4D2B-86BC-6EC88EA42411}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
