@@ -29,5 +29,9 @@ namespace Time_to_new_year_C_
 			// TODO: Add constructor code after the InitializeComponent() call.
 			//
 		}
+		void PictureBox1Click(object sender, EventArgs e)
+		{
+			this.Close();
+		}
 	}
 }

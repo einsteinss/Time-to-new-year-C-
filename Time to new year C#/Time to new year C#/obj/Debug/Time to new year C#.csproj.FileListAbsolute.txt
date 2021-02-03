@@ -1,0 +1,8 @@
+E:\9-Github\Time to new year C#\Time to new year C#\Time to new year C#\bin\Debug\Time to new year C#.exe.config
+E:\9-Github\Time to new year C#\Time to new year C#\Time to new year C#\bin\Debug\Time to new year C#.exe
+E:\9-Github\Time to new year C#\Time to new year C#\Time to new year C#\bin\Debug\Time to new year C#.pdb
+E:\9-Github\Time to new year C#\Time to new year C#\Time to new year C#\obj\Debug\Time to new year C#.csprojResolveAssemblyReference.cache
+E:\9-Github\Time to new year C#\Time to new year C#\Time to new year C#\obj\Debug\Time_to_new_year_C_.MainForm.resources
+E:\9-Github\Time to new year C#\Time to new year C#\Time to new year C#\obj\Debug\Time to new year C#.csproj.GenerateResource.Cache
+E:\9-Github\Time to new year C#\Time to new year C#\Time to new year C#\obj\Debug\Time to new year C#.exe
+E:\9-Github\Time to new year C#\Time to new year C#\Time to new year C#\obj\Debug\Time to new year C#.pdb

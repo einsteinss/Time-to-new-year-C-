@@ -162,11 +162,11 @@ namespace Time_to_new_year_C_
 			this.label9.BackColor = System.Drawing.Color.Transparent;
 			this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F);
 			this.label9.ForeColor = System.Drawing.Color.White;
-			this.label9.Location = new System.Drawing.Point(379, 320);
+			this.label9.Location = new System.Drawing.Point(367, 320);
 			this.label9.Name = "label9";
-			this.label9.Size = new System.Drawing.Size(61, 31);
+			this.label9.Size = new System.Drawing.Size(84, 31);
 			this.label9.TabIndex = 8;
-			this.label9.Text = "Dias";
+			this.label9.Text = "Horas";
 			this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
 			// 
 			// label10
@@ -174,11 +174,11 @@ namespace Time_to_new_year_C_
 			this.label10.BackColor = System.Drawing.Color.Transparent;
 			this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F);
 			this.label10.ForeColor = System.Drawing.Color.White;
-			this.label10.Location = new System.Drawing.Point(454, 320);
+			this.label10.Location = new System.Drawing.Point(456, 320);
 			this.label10.Name = "label10";
 			this.label10.Size = new System.Drawing.Size(61, 31);
 			this.label10.TabIndex = 9;
-			this.label10.Text = "Dias";
+			this.label10.Text = "Min";
 			this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
 			// 
 			// label11
@@ -190,7 +190,7 @@ namespace Time_to_new_year_C_
 			this.label11.Name = "label11";
 			this.label11.Size = new System.Drawing.Size(61, 31);
 			this.label11.TabIndex = 10;
-			this.label11.Text = "Dias";
+			this.label11.Text = "Seg";
 			this.label11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
 			// 
 			// label12
@@ -214,19 +214,20 @@ namespace Time_to_new_year_C_
 			this.label13.Name = "label13";
 			this.label13.Size = new System.Drawing.Size(429, 31);
 			this.label13.TabIndex = 12;
-			this.label13.Text = "Contagem regressiva para o novo Ano";
+			this.label13.Text = "Contagem Regressiva Para o Novo Ano";
 			this.label13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
 			// 
 			// pictureBox1
 			// 
 			this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
 			this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-			this.pictureBox1.Location = new System.Drawing.Point(802, 2);
+			this.pictureBox1.Location = new System.Drawing.Point(810, 2);
 			this.pictureBox1.Name = "pictureBox1";
-			this.pictureBox1.Size = new System.Drawing.Size(66, 50);
+			this.pictureBox1.Size = new System.Drawing.Size(58, 55);
 			this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
 			this.pictureBox1.TabIndex = 13;
 			this.pictureBox1.TabStop = false;
+			this.pictureBox1.Click += new System.EventHandler(this.PictureBox1Click);
 			// 
 			// MainForm
 			// 
