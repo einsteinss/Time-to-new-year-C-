@@ -14,13 +14,13 @@ namespace Time_to_new_year_C_
 		/// Designer variable used to keep track of non-visual components.
 		/// </summary>
 		private System.ComponentModel.IContainer components = null;
-		private System.Windows.Forms.Label label1;
-		private System.Windows.Forms.Label label2;
-		private System.Windows.Forms.Label label3;
+		private System.Windows.Forms.Label d;
+		private System.Windows.Forms.Label m;
+		private System.Windows.Forms.Label h;
 		private System.Windows.Forms.Label label4;
 		private System.Windows.Forms.Label label5;
 		private System.Windows.Forms.Label label6;
-		private System.Windows.Forms.Label label7;
+		private System.Windows.Forms.Label s;
 		private System.Windows.Forms.Label label8;
 		private System.Windows.Forms.Label label9;
 		private System.Windows.Forms.Label label10;
@@ -28,6 +28,7 @@ namespace Time_to_new_year_C_
 		private System.Windows.Forms.Label label12;
 		private System.Windows.Forms.Label label13;
 		private System.Windows.Forms.PictureBox pictureBox1;
+		private System.Windows.Forms.Timer timer1;
 		
 		/// <summary>
 		/// Disposes resources used by the form.
@@ -50,14 +51,15 @@ namespace Time_to_new_year_C_
 		/// </summary>
 		private void InitializeComponent()
 		{
+			this.components = new System.ComponentModel.Container();
 			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
-			this.label1 = new System.Windows.Forms.Label();
-			this.label2 = new System.Windows.Forms.Label();
-			this.label3 = new System.Windows.Forms.Label();
+			this.d = new System.Windows.Forms.Label();
+			this.m = new System.Windows.Forms.Label();
+			this.h = new System.Windows.Forms.Label();
 			this.label4 = new System.Windows.Forms.Label();
 			this.label5 = new System.Windows.Forms.Label();
 			this.label6 = new System.Windows.Forms.Label();
-			this.label7 = new System.Windows.Forms.Label();
+			this.s = new System.Windows.Forms.Label();
 			this.label8 = new System.Windows.Forms.Label();
 			this.label9 = new System.Windows.Forms.Label();
 			this.label10 = new System.Windows.Forms.Label();
@@ -65,41 +67,42 @@ namespace Time_to_new_year_C_
 			this.label12 = new System.Windows.Forms.Label();
 			this.label13 = new System.Windows.Forms.Label();
 			this.pictureBox1 = new System.Windows.Forms.PictureBox();
+			this.timer1 = new System.Windows.Forms.Timer(this.components);
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
 			this.SuspendLayout();
 			// 
-			// label1
+			// d
 			// 
-			this.label1.BackColor = System.Drawing.Color.Transparent;
-			this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 32F);
-			this.label1.ForeColor = System.Drawing.Color.White;
-			this.label1.Location = new System.Drawing.Point(271, 269);
-			this.label1.Name = "label1";
-			this.label1.Size = new System.Drawing.Size(94, 51);
-			this.label1.TabIndex = 0;
-			this.label1.Text = "000";
+			this.d.BackColor = System.Drawing.Color.Transparent;
+			this.d.Font = new System.Drawing.Font("Microsoft Sans Serif", 32F);
+			this.d.ForeColor = System.Drawing.Color.White;
+			this.d.Location = new System.Drawing.Point(271, 269);
+			this.d.Name = "d";
+			this.d.Size = new System.Drawing.Size(94, 51);
+			this.d.TabIndex = 0;
+			this.d.Text = "000";
 			// 
-			// label2
+			// m
 			// 
-			this.label2.BackColor = System.Drawing.Color.Transparent;
-			this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 32F);
-			this.label2.ForeColor = System.Drawing.Color.White;
-			this.label2.Location = new System.Drawing.Point(451, 269);
-			this.label2.Name = "label2";
-			this.label2.Size = new System.Drawing.Size(70, 51);
-			this.label2.TabIndex = 1;
-			this.label2.Text = "00";
+			this.m.BackColor = System.Drawing.Color.Transparent;
+			this.m.Font = new System.Drawing.Font("Microsoft Sans Serif", 32F);
+			this.m.ForeColor = System.Drawing.Color.White;
+			this.m.Location = new System.Drawing.Point(451, 269);
+			this.m.Name = "m";
+			this.m.Size = new System.Drawing.Size(70, 51);
+			this.m.TabIndex = 1;
+			this.m.Text = "00";
 			// 
-			// label3
+			// h
 			// 
-			this.label3.BackColor = System.Drawing.Color.Transparent;
-			this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 32F);
-			this.label3.ForeColor = System.Drawing.Color.White;
-			this.label3.Location = new System.Drawing.Point(375, 269);
-			this.label3.Name = "label3";
-			this.label3.Size = new System.Drawing.Size(70, 51);
-			this.label3.TabIndex = 2;
-			this.label3.Text = "00";
+			this.h.BackColor = System.Drawing.Color.Transparent;
+			this.h.Font = new System.Drawing.Font("Microsoft Sans Serif", 32F);
+			this.h.ForeColor = System.Drawing.Color.White;
+			this.h.Location = new System.Drawing.Point(375, 269);
+			this.h.Name = "h";
+			this.h.Size = new System.Drawing.Size(70, 51);
+			this.h.TabIndex = 2;
+			this.h.Text = "00";
 			// 
 			// label4
 			// 
@@ -134,16 +137,16 @@ namespace Time_to_new_year_C_
 			this.label6.TabIndex = 5;
 			this.label6.Text = ":";
 			// 
-			// label7
+			// s
 			// 
-			this.label7.BackColor = System.Drawing.Color.Transparent;
-			this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 32F);
-			this.label7.ForeColor = System.Drawing.Color.White;
-			this.label7.Location = new System.Drawing.Point(527, 269);
-			this.label7.Name = "label7";
-			this.label7.Size = new System.Drawing.Size(70, 51);
-			this.label7.TabIndex = 6;
-			this.label7.Text = "00";
+			this.s.BackColor = System.Drawing.Color.Transparent;
+			this.s.Font = new System.Drawing.Font("Microsoft Sans Serif", 32F);
+			this.s.ForeColor = System.Drawing.Color.White;
+			this.s.Location = new System.Drawing.Point(527, 269);
+			this.s.Name = "s";
+			this.s.Size = new System.Drawing.Size(70, 51);
+			this.s.TabIndex = 6;
+			this.s.Text = "00";
 			// 
 			// label8
 			// 
@@ -229,6 +232,11 @@ namespace Time_to_new_year_C_
 			this.pictureBox1.TabStop = false;
 			this.pictureBox1.Click += new System.EventHandler(this.PictureBox1Click);
 			// 
+			// timer1
+			// 
+			this.timer1.Interval = 1000;
+			this.timer1.Tick += new System.EventHandler(this.Timer1Tick);
+			// 
 			// MainForm
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -243,13 +251,13 @@ namespace Time_to_new_year_C_
 			this.Controls.Add(this.label10);
 			this.Controls.Add(this.label9);
 			this.Controls.Add(this.label8);
-			this.Controls.Add(this.label7);
+			this.Controls.Add(this.s);
 			this.Controls.Add(this.label6);
 			this.Controls.Add(this.label5);
 			this.Controls.Add(this.label4);
-			this.Controls.Add(this.label3);
-			this.Controls.Add(this.label2);
-			this.Controls.Add(this.label1);
+			this.Controls.Add(this.h);
+			this.Controls.Add(this.m);
+			this.Controls.Add(this.d);
 			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
 			this.Name = "MainForm";
 			this.Text = "Time to new year C#";

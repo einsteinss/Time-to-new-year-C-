@@ -24,14 +24,25 @@ namespace Time_to_new_year_C_
 			// The InitializeComponent() call is required for Windows Forms designer support.
 			//
 			InitializeComponent();
+			timer1.Start();
 			
 			//
 			// TODO: Add constructor code after the InitializeComponent() call.
 			//
 		}
+		DateTime endTime = new DateTime(2022, 1, 1, 0, 0, 0);
 		void PictureBox1Click(object sender, EventArgs e)
 		{
 			this.Close();
+		}
+		void Timer1Tick(object sender, EventArgs e)
+		{
+			TimeSpan ts = endTime.Subtract(DateTime.Now);
+			
+			d.Text = ts.Days.ToString();
+			h.Text = ts.Hours.ToString();
+			m.Text = ts.Minutes.ToString();
+			s.Text = ts.Seconds.ToString();
 		}
 	}
 }
